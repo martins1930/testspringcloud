@@ -10,8 +10,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableConfigurationProperties
 public class PeopleMain {
 
-    public static void main(String[] args) {
-        SpringApplication.run(PeopleMain.class, args);
-    }
+  public static void main(String[] args) {
+    SpringApplication.run(PeopleMain.class, args);
+  }
 
 }

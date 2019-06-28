@@ -9,9 +9,9 @@ import org.springframework.web.client.RestTemplate;
 @Configuration
 public class GatewayConfig {
 
-    @Bean
-    @LoadBalanced
-    public RestTemplate rest() {
-        return new RestTemplateBuilder().build();
-    }
+  @Bean
+  @LoadBalanced
+  public RestTemplate rest() {
+    return new RestTemplateBuilder().build();
+  }
 }

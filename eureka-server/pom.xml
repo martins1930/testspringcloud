@@ -13,6 +13,10 @@
     <packaging>jar</packaging>
     <artifactId>eureka-server</artifactId>
 
+    <properties>
+        <main.basedir>${project.parent.basedir}</main.basedir>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>

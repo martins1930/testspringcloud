@@ -13,6 +13,10 @@
     <packaging>jar</packaging>
     <artifactId>domain</artifactId>
 
+    <properties>
+        <main.basedir>${project.parent.basedir}</main.basedir>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>

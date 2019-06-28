@@ -5,21 +5,19 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import testspringcloud.domain.People;
 
-import java.util.List;
-
 @Service
 public class PeopleService {
 
-    private static final String PEOPLE_URL = "http://people/peoples";
+  private static final String PEOPLE_URL = "http://people/peoples";
 
-    private final RestTemplate restTemplate;
+  private final RestTemplate restTemplate;
 
-    @Autowired
-    public PeopleService(RestTemplate restTemplate) {
-        this.restTemplate = restTemplate;
-    }
+  @Autowired
+  public PeopleService(RestTemplate restTemplate) {
+    this.restTemplate = restTemplate;
+  }
 
-    public People getById(Integer id) {
-        return restTemplate.getForObject(PEOPLE_URL + "/" + id, People.class);
-    }
+  public People getById(Integer id) {
+    return restTemplate.getForObject(PEOPLE_URL + "/" + id, People.class);
+  }
 }

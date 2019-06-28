@@ -8,8 +8,8 @@ import testspringcloud.domain.People;
 @RestController
 public class PeopleController {
 
-    @GetMapping("/peoples/{id}")
-    public People getAll(@PathVariable("id") Integer id) {
-        return new People(id, "sergio", 22);
-    }
+  @GetMapping("/peoples/{id}")
+  public People getAll(@PathVariable("id") Integer id) {
+    return new People(id, "sergio", 22);
+  }
 }

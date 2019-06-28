@@ -9,17 +9,17 @@ import lombok.Value;
 @Value
 public class People {
 
-    private final int id;
-    private final String name;
-    private final int age;
+  private final int id;
+  private final String name;
+  private final int age;
 
-    @JsonCreator
-    public People(
-            @JsonProperty("id") int id,
-            @JsonProperty("name") String name,
-            @JsonProperty("age") int age) {
-        this.id = id;
-        this.name = name;
-        this.age = age;
-    }
+  @JsonCreator
+  public People(
+      @JsonProperty("id") int id,
+      @JsonProperty("name") String name,
+      @JsonProperty("age") int age) {
+    this.id = id;
+    this.name = name;
+    this.age = age;
+  }
 }
