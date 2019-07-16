@@ -24,7 +24,7 @@
 
     <modules>
         <module>domain</module>
-        <module>gateway</module>
+        <module>aggregator</module>
         <module>people</module>
         <module>eureka-server</module>
         <module>configuration-server</module>

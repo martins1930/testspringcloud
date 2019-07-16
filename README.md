@@ -11,11 +11,11 @@ mvn clean install
 1) start eureka-server
 2) start configuration-server
 3) start people
-4) start gateway
+4) start aggregator
 
 
 ## Test 
 ```bash
-curl http://localhost:8080/gw/peoples/age/1234
+curl http://localhost:8080/agg/peoples/age/1234
 ```
 
