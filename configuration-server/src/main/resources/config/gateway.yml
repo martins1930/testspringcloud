@@ -1,6 +1,13 @@
 server:
   port: 8080
 
+zuul:
+  routes:
+    foos:
+      path: /foos/**
+      url: http://localhost:8081/spring-zuul-foos-resource/foos
+
+
 lombok:
   anyConstructor:
     addConstructorProperties: true

@@ -28,6 +28,7 @@
         <module>people</module>
         <module>eureka-server</module>
         <module>configuration-server</module>
+        <module>gateway</module>
     </modules>
 
     <dependencyManagement>
