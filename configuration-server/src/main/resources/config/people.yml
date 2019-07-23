@@ -1,6 +1,9 @@
 server:
   port: 0
 
+people:
+  my-value: this is from config server!!
+
 lombok:
   anyConstructor:
     addConstructorProperties: true
