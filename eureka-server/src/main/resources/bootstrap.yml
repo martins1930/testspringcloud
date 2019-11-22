@@ -1,0 +1,4 @@
+logging:
+  file: /var/log/eureka-server/eureka-server.log
+  level:
+    root: INFO
