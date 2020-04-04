@@ -1,5 +1,12 @@
 # Project to learn spring cloud features
 
+# Start postgres server
+```bash
+cd infrastructure/database
+bash build-postgres-image.bash
+bash postgres-run.bash
+```
+
 # Build
 To build the project go to `project.basedir` and execute this command:
 ```bash
