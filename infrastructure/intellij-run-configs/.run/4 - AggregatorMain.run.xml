@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="4 - AggregatorMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="aggregator" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="testspringcloud.aggregator.AggregatorMain" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

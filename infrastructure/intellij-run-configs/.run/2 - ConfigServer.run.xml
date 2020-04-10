@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="2 - ConfigServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="configuration-server" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="testspringcloud.configserver.ConfigServer" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
