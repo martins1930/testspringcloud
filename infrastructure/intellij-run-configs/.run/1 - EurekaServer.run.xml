@@ -1,5 +1,7 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="1 - EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <configuration default="false"
+                 name="1 - EurekaServer" type="SpringBootApplicationConfigurationType"
+                 factoryName="Spring Boot">
     <module name="eureka-server" />
     <option name="SPRING_BOOT_MAIN_CLASS" value="testspringcloud.eurekaserver.EurekaServer" />
     <option name="ALTERNATIVE_JRE_PATH" />

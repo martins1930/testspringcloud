@@ -9,4 +9,8 @@ GET http://127.0.0.1:8080/message?message=martinsss
 
 ###
 
-GET http://127.0.0.1:8080/people/peoples/1234
+GET http://127.0.0.1:8585/resources/actor?page=0&size=10&sort=actor_id&search=(lastName=="CAGE",firstName=="JOHNNY");actorId==40
+#&search=(lastName=="CAGE";actorId==11),lastName=="Martin"
+
+
+
